@@ -1,11 +1,11 @@
 ####################BOT SETUP##########################
 from pytorch_bot import bot
 
-telegram_token = "YOUR TOKEN HERE"   # replace TOKEN with your bot's token it must be string
+token = "YOUR TOKEN HERE"   # replace TOKEN with your bot's token it must be string
 
 # user id is optional, however highly recommended as it limits the access to you alone.
-telegram_user_id = None   # replace None with your telegram user id (integer):
-bot = bot(token=telegram_token, user_id=telegram_user_id)
+uid = None   # replace None with your telegram user id (integer):
+bot = bot(token=token, user_id=uid)
 bot.activate_bot()
 
 #########################PYTORCH########################
